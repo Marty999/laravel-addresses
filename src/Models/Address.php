@@ -144,7 +144,7 @@ class Address extends Model
         'addressable_id' => 'required|integer',
         'addressable_type' => 'required|string|max:150',
         'label' => 'nullable|string|max:150',
-        'given_name' => 'required|string|max:150',
+        'given_name' => 'nullable|string|max:150',
         'family_name' => 'nullable|string|max:150',
         'organization' => 'nullable|string|max:150',
         'country_code' => 'nullable|alpha|size:2|country',

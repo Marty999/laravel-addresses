@@ -165,7 +165,7 @@ class Address extends Model
      *
      * @var bool
      */
-    protected $throwValidationExceptions = true;
+    protected $throwValidationExceptions = false;
 
     /**
      * Create a new Eloquent model instance.
